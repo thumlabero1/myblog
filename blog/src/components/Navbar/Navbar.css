@@ -1,0 +1,42 @@
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #555;
+  }
+
+  .social-links {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    margin-right: 5px;
+  }
+  
+  .social-links a:hover {
+    color: #555;
+  }
+  
