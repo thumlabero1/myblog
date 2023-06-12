@@ -39,4 +39,21 @@ nav {
   .social-links a:hover {
     color: #555;
   }
+
+  .social-links a i {
+    color: #333;
+  }
   
+  .social-links a:hover i {
+    color: #555;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-nav {
+    margin-top: 20px;
+  }
