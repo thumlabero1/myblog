@@ -14,7 +14,7 @@ nav {
   
   li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 40px;
   }
   
   a {
@@ -27,11 +27,19 @@ nav {
   }
 
   .social-links {
-    float: left;
-    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+    background-color: green ;
+    display: inline-block;
+    border-radius: 0px 0px 20px 0px;
+    transform: skew(-20deg);
+    overflow: hidden;
+    width: 300px;
   }
   
   .social-links a {
+    margin: 0 5px;
     color: #333;
     margin-right: 5px;
   }
@@ -56,4 +64,11 @@ nav {
   
   .bottom-nav {
     margin-top: 20px;
+  }
+
+  .btn-link{
+    margin-right: 40px;
+    background-color: green;
+    border: green;
+    color: white;
   }

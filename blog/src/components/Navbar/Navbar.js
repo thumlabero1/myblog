@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <nav>
        <div className="social-links">
-        <a href="https://facebook.com"><i className="fa fa-facebook"></i></a>
-        <a href="https://twitter.com"><i className="fa fa-twitter"></i></a>
-        <a href="https://instagram.com"><i className="fa fa-instagram"></i></a>
+        <a href="https://facebook.com"><button className="fa fa-facebook btn-link"></button></a>
+        <a href="https://twitter.com"><button className="fa fa-twitter btn-link"></button></a>
+        <a href="https://instagram.com"><button className="fa fa-instagram btn-link"></button ></a>
       </div>
       <div className="top-nav">
         <ul>
